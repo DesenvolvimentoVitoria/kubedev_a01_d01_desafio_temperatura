@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: webtemp
-          image: desenvolvimentovitoria/conversao-temperatura:v1
+          image: desenvolvimentovitoria/conversao-temperatura:latest
           ports:
             - containerPort: 8080
 ---
