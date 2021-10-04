@@ -51,5 +51,5 @@ jobs:
           manifests: |
             ./k8s/deployment.yaml
           images: |
-            desenvolvimentovitoria/conversao-temperatura:v${{ github.run_number }}
+            desenvolvimentovitoria/conversao-temperatura:latest
           
